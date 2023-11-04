@@ -165,7 +165,8 @@ strong {
     grid-template-columns: repeat(4, auto);
     padding-top: 20px;
     padding-left: 20px;
-    row-gap: 30px;
+    gap: 1rem;
+    grid-auto-flow: dense;
 }
 
 .card {
